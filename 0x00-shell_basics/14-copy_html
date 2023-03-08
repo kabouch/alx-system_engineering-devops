@@ -1,2 +1,9 @@
 #!/bin/bash
-cd *.html ../
+
+for file in *.html; do
+    if [ "$file" -nt "../$file" ] || [ ! -e "../$file" ]; then
+        cp "$file" "../$file"
+        echo "Copied $file to ../$file"
+    fi
+done
+
