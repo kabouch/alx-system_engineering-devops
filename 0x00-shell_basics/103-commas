@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1A | sort -d -f -k1.1,1.1 | sed -e 's/$/,/' -e '$s/,/\n/'
+ls -amp | sort -d -f ; echo
