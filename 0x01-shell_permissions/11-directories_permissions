@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -Rd 751 .
+chmod -Rd 751 /tmp/
