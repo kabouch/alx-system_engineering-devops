@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Best School' | tee -a '\*\\'"Best School"'\\*\$\?\*\*\*\*\*\:\)' >/dev/null
+echo 'Best School' | tee -a '\*\\\\'"Best School"'\\\\*\\$\\?*****:\\)' >/dev/null
